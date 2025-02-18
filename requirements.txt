@@ -8,3 +8,5 @@ wordcloud
 scikit-learn
 nltk
 keras
+tensorflow
+Flask
