@@ -29,7 +29,12 @@ This project performs Sentiment Analysis on the Amazon Fine Food Reviews dataset
 # 📦 Results and Analysis
 - **Best Model**: Logistic Regression.
 - **Confusion Matrix**: **Logistic Regression** show high value in TP and TN.
+  
+ ![Alt text](https://github.com/juna-99/Amazon-Fine-Food-Reviews/blob/9d63e74feef04c26e095ebbc8b7d22675617a79b/reports/figures/confusion_matrix.png) 
 - **AUC-ROC Curve**: **Logistic Regression** has better discrimination between positive and negative instances.
+  
+![Alt text](https://github.com/juna-99/Amazon-Fine-Food-Reviews/blob/9d63e74feef04c26e095ebbc8b7d22675617a79b/reports/figures/roc.png)
+
 - **Performance Metrics**: Considering both Precision and Recall, **Logistic Regression** preferred as it has a high F1-Score.
 
 | Model       | Logistic Regression | Multinomial Naive Bayes | Bernoulli Naive Bayes | 
