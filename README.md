@@ -34,10 +34,10 @@ This project performs Sentiment Analysis on the Amazon Fine Food Reviews dataset
 
 | Model       | Logistic Regression | Multinomial Naive Bayes | Bernoulli Naive Bayes | 
 |-------------|---------------------|-------------------------|-----------------------|
-| Accuracy    | 0.868               | 0.856                   | 0.850                 | 
-| Precision   | 0.87                | 0.86                    | 0.85                  |
-| Recall      | 0.87                | 0.86                    | 0.85                  |
-| F1 - Score  | 0.87                |0.86                     | 0.85                  |   
+| Accuracy    | 0.92                | 0.85                    | 0.87                  | 
+| Precision   | 0.93                | 0.87                    | 0.88                  |
+| Recall      | 0.93                | 0.85                    | 0.88                  |
+| F1 - Score  | 0.93                | 0.79                    | 0.88                  |   
 
 # 🏗️ Project Organization
 ------------
