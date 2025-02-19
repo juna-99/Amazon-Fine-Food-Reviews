@@ -1,9 +1,45 @@
-Amazon Fine Food Reviews
-==============================
+# Amazon Fine Food Reviews - Sentiment Analysis
 
-Sentiment Analysis On Amazon Fine Food Reviews
+# 📌 Project Overview
 
-Project Organization
+This project performs Sentiment Analysis on the Amazon Fine Food Reviews dataset. The goal is to classify customer reviews as Positive, Neutral, or Negative using Natural Language Processing (NLP) techniques and Machine Learning models.
+
+## Key Features:
+
+1. Text Preprocessing: Removing HTML tags, punctuation, stopwords, and applying stemming.
+
+2. Feature Engineering: Using TF-IDF vectorization.
+
+3. Model Training & Evaluation: Comparing multiple models like Naïve Bayes, Logistic Regression, and SVM.
+
+
+# 🔄 Project Workflow
+
+1. Data Collection: Loading the Amazon Fine Food Reviews dataset.
+
+2. Data Cleaning & Preprocessing: Removing unwanted characters, stopwords, and applying stemming.
+
+3. Exploratory Data Analysis (EDA): Understanding patterns in the dataset.
+
+4. Feature Engineering: Converting text data into numerical form using TF-IDF.
+
+5. Model Training & Evaluation: Training models and selecting the best one based on performance metrics.
+
+
+# 📦 Results and Analysis
+- **Best Model**: Logistic Regression.
+- **Confusion Matrix**: **Logistic Regression** show high value in TP and TN.
+- **AUC-ROC Curve**: **Logistic Regression** has better discrimination between positive and negative instances.
+- **Performance Metrics**: Considering both Precision and Recall, **Logistic Regression** preferred as it has a high F1-Score.
+
+| Model       | Logistic Regression | Multinomial Naive Bayes | Bernoulli Naive Bayes | 
+|-------------|---------------------|-------------------------|-----------------------|
+| Accuracy    | 0.868               | 0.856                   | 0.850                 | 
+| Precision   | 0.87                | 0.86                    | 0.85                  |
+| Recall      | 0.87                | 0.86                    | 0.85                  |
+| F1 - Score  | 0.87                |0.86                     | 0.85                  |   
+
+# 🏗️ Project Organization
 ------------
 
     ├── LICENSE
