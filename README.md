@@ -10,7 +10,7 @@ This project performs Sentiment Analysis on the Amazon Fine Food Reviews dataset
 
 2. Feature Engineering: Using TF-IDF vectorization.
 
-3. Model Training & Evaluation: Comparing multiple models like Naïve Bayes, Logistic Regression, and SVM.
+3. Model Training & Evaluation: Comparing multiple models like Logistic Regression, Multinomial Naive Bayes, and Bernoulli Naive Bayes.
 
 
 # 🔄 Project Workflow
